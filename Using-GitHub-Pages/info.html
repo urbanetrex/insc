@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Using GitHub Pages</title>
+        <style>
+            body {
+                font-family: sans-serif;
+                padding: 2rem;
+                background-color: #f4f4f4;
+            }
+            h1 {
+                color: #333;
+            }
+            ul {
+                list-style-type: square;
+            }
+            img {
+                display: block;
+                margin: 1rem auto;
+                border: 1px solid #ccc;
+                border-radius: 8px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Using GitHub Pages</h1>
+        <h2>Instructions</h2>
+        <ul>
+            <li>
+                <h3>Step 1: Create a Repository</h3>
+                <img src="./repo_without_anything.png" alt="Create a Repository" style="width: 100%; max-width: 600px;">
+                <p>Create a new repository on GitHub by clicking the "New" button on your repositories page.</p>
+                <p>Make sure to give your repository a name and choose whether it should be public or private. Usually, I will select <code>Public</code> for repos for publishing to GitHub Pages.</p>
+                <p>Here, I created a repo...</p>
+            </li>
+            <li>
+                <h3>Step 2: Add an <code>index.html</code></h3>
+                <p>Create an <code>index.html</code> file in your repository. This file will serve as the main page for your GitHub Pages site.</p>
+                <p>Remember to push your changes to GitHub after creating the <code>index.html</code> file.</p>
+            </li>
+            <li>
+                <h3>Step 3: Configure GitHub Pages</h3>
+                <img src="./repo_GitHub-Pages_settings.png" alt="GitHub Pages Settings" style="width: 100%; max-width: 600px;">
+                <p>Go to the repository settings and scroll down to the "GitHub Pages" section. Select the branch you want to use for GitHub Pages.</p>
+            </li>
+            <li>
+                <h3>Step 4: Access Your Site</h3>
+                <p>After configuring GitHub Pages, your site will be available at <code>https://&lt;your-username&gt;.github.io/&lt;your-repo-name&gt;/</code>.</p>
+                <p>For example, if your username is <code>johnDoe</code> and your repository name is <code>my-site</code>, your site will be at <code>https://johnDoe.github.io/my-site/</code>.</p>
+            </li>
+            <li>
+                <h3>Step 5: Troubleshooting (if Step 4 didn't publish the site)</h3>
+                <p>If the site didn't publish, push another commit to your repo.</p>
+                <p>Sometimes, GitHub Pages requires a new commit to trigger the build process.</p>
+                <p>Make a small change to your <code>index.html</code> file, commit it, and push it to the repository.</p>
+                <p>For example, you can add a comment or change some text in the file.</p>
+                <img src="./repo_with_yellow-dot.png" alt="Commit Changes" style="width: 100%; max-width: 600px;">
+                <p>After pushing the commit, wait a few minutes and then check your GitHub Pages URL again.</p>
+                <p>If it still doesn't work, ensure that your repository is public and that the <code>index.html</code> file is in the root directory of the branch you selected for GitHub Pages.</p>
+            </li>
+            <li>
+                <h3>You are finished!</h3>
+                <img src="./pages_screen.png" alt="GitHub Pages Site" style="width: 100%; max-width: 600px;">
+                <p>Congratulations on setting up your GitHub Pages site!</p>
+                <p>You can now share your site with others or continue to develop it further.</p>
+                <p>Feel free to explore more features of GitHub Pages!</p>
+            </li>
+        </ul>
+    </body>
+</html>
