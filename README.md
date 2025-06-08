@@ -2,4 +2,4 @@
 
 ## Sections
 
-###  1. \[Using GitHub Desktop\]\(\)
+###  1. [Using GitHub Desktop](https://github.com/urbanetrex/insc/blob/main/Using-GitHub-Desktop/info.md)
